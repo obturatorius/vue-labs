@@ -23,6 +23,11 @@ const routes = [
     path: "/todo",
     name: "Todo",
     component: () => import("@/views/TodoList.vue")
+  },
+  {
+    path: "/tensorflow",
+    name: "TensorFlow",
+    component: () => import("@/views/Tensorflow.vue")
   }
 ];
 
