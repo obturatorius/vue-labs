@@ -15,12 +15,12 @@
             <input
               type="number"
               class="form-control field-x"
-              v-model="xValues[index]"
+              v-model.number="xValues[index]"
             />
             <input
               type="number"
               class="form-control field-y"
-              v-model="yValues[index]"
+              v-model.number="yValues[index]"
             />
           </div>
         </div>
